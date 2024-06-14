@@ -9,16 +9,16 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer
-      className='d-flex align-items-center'
-      style={{ backgroundColor: '#1c1c1c', height: 200, marginTop: 30 }}
+      className='footer'
+      style={{ backgroundColor: 'green', height: 200, marginTop: 30 }}
     >
       <Container>
-        <Row>
-        <Col md={4}>
+        <Row style={{display: "flex", justifyContent: "center", padding:"45px"}}> 
+          {/* <Col md={4}>
             <p style={{ color: 'white' }}>
-            Fresh farm products directly from our farm to your table.
+              Fresh farm products directly from our farm to your table.
             </p>
-          </Col>
+          </Col> */}
           
           <Col md={4}>
             <div className="footer-content">

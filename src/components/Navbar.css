@@ -1,20 +1,21 @@
 .active{
-  background-color: #1d4ed8;
+  background-color: #1d6a35;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f172a;
+  background-color: #31d25c;
   color: white;
-  position: sticky;
+  position: relative;
   top: 0;
 }
 
 .header {
   display: flex;
   align-items: center;
+  padding: 7px;
 }
 
 .logo-container {
@@ -41,7 +42,7 @@ nav {
 
 .slogan {
   font-size: 1rem; /* Adjust font size as needed */
-  color: #ca0e0e;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -56,14 +57,17 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: white;
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
+  color: #fffefe;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
+  text-align: center;
 }
 
 nav ul li a:not(.active):hover {
-  background-color:#172554 ;
+  background-color:#000000 ;
 }
 
 nav .menu {
@@ -104,11 +108,16 @@ nav .menu span {
 
   nav ul.open {
       display: flex;
+      background-image: url('/src/images/verg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
   }
 
   nav ul li {
       width: 100%;
       text-align: center;
+      font-weight: bolder;
   }
 
   nav ul li a {

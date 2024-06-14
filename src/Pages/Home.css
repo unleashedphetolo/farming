@@ -1,0 +1,40 @@
+/* Home.css */
+.animated-caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000;
+  }
+  
+  .home-image-container {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .home-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+
+  .image-text {
+
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  }
+  
