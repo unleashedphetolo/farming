@@ -1,6 +1,6 @@
 .App {
   background-color: #fefefe;
-  background-image: url('/src/images/background.jpg');
+  /* background-image: url('/src/images/background.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
