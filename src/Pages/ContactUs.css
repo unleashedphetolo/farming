@@ -42,7 +42,7 @@
 
 .contact-input,
 .contact-message {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   font-size: 1em;
   border: 1px solid #ccc;
@@ -145,7 +145,7 @@
 }
 
 /* Media queries for responsive design */
-@media (min-width: 600px) {
+@media (max-width: 480px) {
   
   
   .contact-container {

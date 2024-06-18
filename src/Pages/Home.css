@@ -19,9 +19,6 @@
   object-fit: cover;
 }
 
-.home-content {
-  margin-top: 20px;
-}
 
 .image-overlay {
   position: absolute;
@@ -34,6 +31,8 @@
 .image-text {
   font-size: 24px; /* Adjust the font size as needed */
   background-color: transparent;
+  color: #30be1b;
+  text-shadow: 2px 2px 4px rgba(9, 9, 9, 0.5); /* Added a subtle text shadow for readability */
 }
 
 .quote-button {
@@ -46,10 +45,33 @@
   width: 150px;
   height: 50px;
   font-size: 20px; /* Adjust the font size as needed */
-  
   transition: transform 0.3s ease;
 }
 
 .quote-button:hover {
   transform: translateY(-5px);
+}
+
+@media (max-width: 480px) {
+  .home-image-container {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .home-content {
+    font-size: 20px; /* Adjust font size for readability on small screens */
+    bottom: 10px; /* Adjust positioning for smaller screens */
+  }
+
+  .image-text {
+    font-size: 16px; /* Adjust the font size for readability */
+  }
+
+  .quote-button {
+    bottom: 20px; /* Adjust position to be above other content */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%);
+    width: 120px; /* Adjust size for smaller screens */
+    height: 40px;
+    font-size: 16px;
+  }
 }

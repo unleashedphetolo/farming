@@ -1,0 +1,123 @@
+/* OpportunitiesSection.module.css */
+.opportunities {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+  }
+  
+  .opportunities__img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .opportunities__img img {
+    width: 80%;
+    border-radius: 50%;
+  }
+  
+  .opportunities__content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .opportunities__head {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .opportunities__title {
+    font-size: 2em;
+    color: #2c5037;
+    margin-bottom: 10px;
+  }
+  
+  .opportunities__description {
+    font-size: 1.2em;
+    color: #7f8c8d;
+  }
+  
+  .opportunities__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .opportunity {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .opportunity:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .opportunity__icon {
+    width: auto;
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+  }
+  
+  .opportunity__title {
+    font-size: 1.5em;
+    color: #29b93c;
+    margin-bottom: 10px;
+  }
+  
+  .opportunity__description {
+    font-size: 1em;
+    color: #95a5a6;
+  }
+  
+  .active {
+    border: 2px solid #34db4d;
+  }
+  
+  @media (max-width: 480px) {
+    .opportunities {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .opportunities__img, .opportunities__content {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .opportunities__img img {
+      width: 100%;
+      border-radius: 15px;
+    }
+  
+    .opportunities__title {
+      font-size: 1.5em;
+    }
+  
+    .opportunities__description {
+      font-size: 1em;
+    }
+  
+    .opportunities__body {
+      flex-direction: column;
+    }
+  
+    .opportunity {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

@@ -2,10 +2,15 @@ import React, { useState, useEffect, useMemo } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Home.css'; // Import the CSS file
+import OpportunitiesSection from '../Pages/OpportunitiesSection';
+
 
 import cattle from '../images/cattle.jpg';
 import land from '../images/land.jpg';
 import Chickens from '../images/chicken.jpg';
+import About from "./About";
+import ContactUs from "./ContactUs";
+
 
 function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -61,20 +66,37 @@ function Home() {
             <h2 className="image-text">{displayedText}</h2>
           </div>
         </div>
-
-        <a href="/Products">   
+        
+        <a href="/Shop">   
           <button 
             variant='primary'
             className="quote-button"
             onMouseEnter={(e) => (e.target.style.transform = 'translateY(-5px)')}
-        onMouseLeave={(e) => (e.target.style.transform = 'translateY(0)')}
+            onMouseLeave={(e) => (e.target.style.transform = 'translateY(0)')}
           >
             Explore More
           </button>
         </a>
-      </div><div className="home-content">
-            <p>Fresh farm products directly from our farm to your table.</p>
-          </div>
+        {/* <div className="home-content">
+  <p>
+    <span class="word">Fresh </span>
+    <span class="word">farm </span>
+    <span class="word">products </span>
+    <span class="word">directly </span>
+    <span class="word">from </span>
+    <span class="word">our </span>
+    <span class="word">farm </span>
+    <span class="word">to </span>
+    <span class="word">your </span>
+    <span class="word">table. </span>
+  </p>
+</div> */}
+      </div>
+      <OpportunitiesSection/>
+      <About/>
+      <ContactUs/>
+
+
     </div>
   );
 }
