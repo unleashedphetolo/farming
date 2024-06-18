@@ -39,7 +39,7 @@
   position: absolute;
   font-weight: bold;
   bottom: 200px; /* Adjust the bottom position as needed */
-  left: 3%;
+  left: 5%;
   background-color: green;
   color: white;
   width: 150px;
@@ -52,10 +52,16 @@
   transform: translateY(-5px);
 }
 
-@media only screen and (max-width: 600px) {
-
+@media (max-width: 992px) {
+  
+  .home-container {
+    position: relative;
+    text-align: center;
+    box-sizing: content-box;
+background-size: auto;  }
   .home-image-container {
     height: 300px; /* Adjust the height for smaller screens */
+    width: auto;
   }
 
   .home-content {
@@ -69,8 +75,8 @@
 
   .quote-button {
     bottom: 20px; /* Adjust position to be above other content */
-    left: 50%; /* Center the button horizontally */
-    width: 120px; /* Adjust size for smaller screens */
+    justify-content: center;
+    align-items: center;
     height: 40px;
     font-size: 16px;
   }

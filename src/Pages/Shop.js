@@ -24,7 +24,7 @@ function Shop() {
     },
     {
       id: 3,
-      name: "Wi-Fi Routers for Home",
+      name: "chickens for sale",
       price: 69.99,
       image: "/images/Shop/fresh-chicken.webp",
     },

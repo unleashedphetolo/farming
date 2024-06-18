@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
     background-image: url('/src/images/chicken.jpg');
     background-size: cover;
     background-position: center;
@@ -36,7 +35,6 @@ body {
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
   }
   
   .product-list, .cart-items {
@@ -130,6 +128,13 @@ body {
     .product-item {
       width: calc(50% - 40px); /* Two items per row on small tablets */
       flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+
+      .container {
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        margin: 0;
+        padding: 0; /* Remove any default padding */
+      }
     }
   }
   
