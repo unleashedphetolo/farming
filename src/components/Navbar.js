@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="navbar">
       <div className="header">
         <div className="logo-container">
           <Link to="/" className="logo">

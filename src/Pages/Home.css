@@ -2,6 +2,9 @@
   position: relative;
   text-align: center;
   box-sizing: content-box;
+  width: 100%;
+  top: 0;
+
 }
 
 .home-image-container {
@@ -31,8 +34,8 @@
 .image-text {
   font-size: 24px; /* Adjust the font size as needed */
   background-color: transparent;
-  color: #217914;
-  text-shadow: 2px 2px 4px rgb(100, 99, 99); /* Added a subtle text shadow for readability */
+  color: #0c4703;
+  text-shadow: 2px 2px 4px rgb(2, 39, 4); /* Added a subtle text shadow for readability */
 }
 
 .quote-button {
@@ -58,7 +61,11 @@
     position: relative;
     text-align: center;
     box-sizing: content-box;
-background-size: auto;  }
+    background-size: auto;  
+    width: 100%;
+}
+
+
   .home-image-container {
     height: 300px; /* Adjust the height for smaller screens */
     width: auto;

@@ -2,16 +2,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url('/src/images/chicken.jpg');
+    /* background-image: url('/src/images/chicken.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
   }
   
   h1, a h1 {
     font-size: 36px;
-    color: #0a0a0a;
+    color: #0d9b2c;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
     text-align: center;

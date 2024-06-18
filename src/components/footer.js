@@ -42,12 +42,12 @@ function Footer() {
   <p style={{ 
     color: 'black',  // Neon blue color
     textShadow: `
-      0 0 5px #00ffff, 
-      0 0 10px #00ffff, 
-      0 0 15px #00ffff, 
-      0 0 20px #00ffff, 
-      0 0 25px #00ffff, 
-      0 0 30px #00ffff` 
+      0 0 5px #ccc9c2, 
+      0 0 10px #ccc9c2, 
+      0 0 15px #ccc9c2, 
+      0 0 20px #ccc9c2, 
+      0 0 25px #ccc9c2, 
+      0 0 30px #ccc9c2` 
     }}>
     &copy; {new Date().getFullYear()} New Development Farm - All Rights Reserved.
   </p>
