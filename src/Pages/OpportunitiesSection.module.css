@@ -86,7 +86,7 @@
     border: 2px solid #34db4d;
   }
   
-  @media (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .opportunities {
       flex-direction: column;
       padding: 20px;
@@ -113,10 +113,12 @@
   
     .opportunities__body {
       flex-direction: column;
+      width: auto;
+
     }
   
     .opportunity {
-      width: 100%;
+      width: auto;
       margin: 10px 0;
     }
   }

@@ -1,59 +1,84 @@
 .about-container {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image:url('../images/Farming.jpg');
-  }
-  
-  .about-content {
-    max-width: 800px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
-    border-radius: 10px;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #30be1b;
-    text-shadow: 2px 2px 4px rgba(9, 9, 9, 0.5); /* Added a subtle text shadow for readability */
-  }
-  
-  .farm-image {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 20px;
-  }
-  
-  /* Styling for headings and paragraphs */
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .mission-statement, .story, .practices, .team, .get-involved {
-    margin-bottom: 20px;
-    color: #fdfbfb;
-    background-color: #565856;
-  }
-  
-  .heading {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #030303; /* Dark text color */
-  }
-  
-  .farm-name {
-    font-weight: bold;
-  }
-  
-  .year {
-    font-style: italic;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../images/Farming.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-content {
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background for readability */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #00ff00; 
+  text-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+}
+
+.farm-image {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: transform 0.3s;
+}
+
+.farm-image:hover {
+  transform: scale(1.05);
+}
+
+.mission-statement, .story, .practices, .get-involved {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #fafafa;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00ff00;
+}
+
+.farm-name {
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.year {
+  font-style: italic;
+  color: #00ff00;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

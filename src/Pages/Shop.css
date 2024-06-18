@@ -126,7 +126,7 @@ body {
     width: calc(50% - 40px); /* Two items per row on medium devices */
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .product-item {
       width: calc(50% - 40px); /* Two items per row on small tablets */
       flex-wrap: wrap; /* Allow items to wrap into multiple rows */
