@@ -40,14 +40,14 @@ function Footer() {
           </Col>
           <Col md={4}>
   <p style={{ 
-    color: 'black',  // Neon blue color
+    color: 'black', 
     textShadow: `
-      0 0 5px #ccc9c2, 
-      0 0 10px #ccc9c2, 
-      0 0 15px #ccc9c2, 
-      0 0 20px #ccc9c2, 
-      0 0 25px #ccc9c2, 
-      0 0 30px #ccc9c2` 
+      0 0 5px #cfcfcf, 
+      0 0 10px #cfcfcf, 
+      0 0 15px #cfcfcf, 
+      0 0 20px #cfcfcf, 
+      0 0 25px #cfcfcf, 
+      0 0 30px #cfcfcf` 
     }}>
     &copy; {new Date().getFullYear()} New Development Farm - All Rights Reserved.
   </p>
