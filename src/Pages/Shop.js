@@ -24,7 +24,7 @@ function Shop() {
     },
     {
       id: 3,
-      name: "chickens for sale",
+      name: "Chickens for sale",
       price: 69.99,
       image: "/images/Shop/fresh-chicken.webp",
     },
@@ -142,7 +142,7 @@ function Shop() {
                 onChange={handleInputChange}
               />
             </label>
-            <button onClick={handlePayment} style={{backgroundcolor: '#1f46bb ',border: 'none', color: 'white',padding: '10px 20px', borderradius: '5px',cursor: 'pointer',fontsize: '1em'}}>Pay Now</button>
+            <button onClick={handlePayment} style={{backgroundcolor: '#1f46bb ',border: 'none',fontWeight:'bolder', color: 'green',padding: '10px 20px', borderradius: '5px',cursor: 'pointer',fontsize: '1em',textshadow: '2px 2px 4px rgba(1, 1, 1, 0.5)'}}>Pay Now</button>
           </div>
         )}
       </div>

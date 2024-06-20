@@ -2,6 +2,14 @@
   background-color: #1d6a35;
 }
 
+.navbar.navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -10,6 +18,7 @@ nav {
   color: white;
   position: relative;
   top: 0;
+  overflow: hidden;
 }
 
 .header {
@@ -37,12 +46,16 @@ nav {
   font-size: 1.5rem; /* Adjust font size as needed */
   font-weight: bold; /* Adjust font weight as needed */
   text-decoration: none;
-  color: #f5f8f5;
+  color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
 }
 
 .slogan {
   font-size: 1rem; /* Adjust font size as needed */
   color: #000000;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
   text-decoration: none;
   font-weight: bold;
 }
@@ -99,6 +112,7 @@ nav .menu span {
   nav {
       flex-direction: column;
       align-items: flex-start;
+      overflow-x: hidden;
   }
 
   nav ul {

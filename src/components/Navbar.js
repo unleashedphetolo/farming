@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../images/FarmLogo.jpg";
@@ -6,8 +6,25 @@ import Logo from "../images/FarmLogo.jpg";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    setIsSticky(window.scrollY > 0);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log(`Navbar sticky state: ${isSticky}`);
+  }, [isSticky]);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar navbar-default ${isSticky ? "navbar-fixed-top" : ""}`}>
       <div className="header">
         <div className="logo-container">
           <Link to="/" className="logo">
