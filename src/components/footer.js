@@ -14,11 +14,10 @@ function Footer() {
     >
       <Container>
         <Row style={{display: "flex", justifyContent: "center", padding:"45px"}}> 
-          
           <Col md={4}>
             <div className="footer-content">
               <div className="footer-links">
-                <a href="https://wa.me/27663438861" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/27721876191" target="_blank" rel="noopener noreferrer">
                   <img src={whatsappLogo} alt="WhatsApp" className="social-media-icon" />
                 </a>
                 <a href="https://www.facebook.com/ulterspace" target="_blank" rel="noopener noreferrer">
