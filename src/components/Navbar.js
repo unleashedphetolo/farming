@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="title-container">
           <div>
             <Link to="/" className="title">
-              New Development Farm
+              Machad Farming
             </Link>
           </div>
           <div>

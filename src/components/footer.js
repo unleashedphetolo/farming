@@ -14,11 +14,6 @@ function Footer() {
     >
       <Container>
         <Row style={{display: "flex", justifyContent: "center", padding:"45px"}}> 
-          {/* <Col md={4}>
-            <p style={{ color: 'white' }}>
-              Fresh farm products directly from our farm to your table.
-            </p>
-          </Col> */}
           
           <Col md={4}>
             <div className="footer-content">
@@ -49,7 +44,7 @@ function Footer() {
       0 0 25px #cfcfcf, 
       0 0 30px #cfcfcf` 
     }}>
-    &copy; {new Date().getFullYear()} New Development Farm - All Rights Reserved.
+    &copy; {new Date().getFullYear()} Machad Farming - All Rights Reserved.
   </p>
 </Col>
         </Row>
