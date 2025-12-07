@@ -1,6 +1,5 @@
-
 .footer {
-  background-image: url('/src/images/Footer/footer\ farm.jpg');
+  background-image: url("/src/images/Footer/footer\ farm.jpg");
   background-size: cover;
   background-position: center;
   height: 100px;
@@ -9,23 +8,45 @@
 }
 
 .footer-content {
-    padding: 10px;
-    text-align: center;
-    border-radius: 12px;
-  }
-  
-  .footer-links {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .social-media-icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-  }
-  
-  .footer-text {
-    margin-top: 10px;
-  }
-  
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.ulterspace-link {
+  display: flex;
+  align-items: center;
+  color: #61dafb;
+  text-decoration: none;
+  gap: 6px;
+}
+.ulterspace-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 5px;
+  vertical-align: middle;
+}
